@@ -1,0 +1,12 @@
+-name: instalando pacote apache  para debian
+  package:
+   name:
+    - apache2
+  when: ansible_os_family == "Debian"
+
+- name: instalando pacote apache para centos
+  package:
+   name:
+    - httpd
+  when: ansible_os_family == "RedHat"
+

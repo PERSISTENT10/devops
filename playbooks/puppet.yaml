@@ -1,0 +1,5 @@
+- name: instalando puppet-server e puppet-agent
+  hosts: all
+  roles:
+   - puppet
+

@@ -1,0 +1,5 @@
+
+- name: configurando um site apache
+  template:
+   src: templates/config
+   dest: /tmp/config
